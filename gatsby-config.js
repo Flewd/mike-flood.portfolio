@@ -2,18 +2,48 @@ require(`dotenv`).config({
   path: `.env`,
 })
 
+// node_modules
+// @LEOARTS
+// gatsby-theme-emillia
+
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
+
   siteMetadata: {
-    siteTitleAlt: `Michael Flood's Game Development Portfolio`,
+    siteTitleAlt: `Michael Flood's Portfolio`,
+
+    siteTitle: `Michael Flood's Game Development Portfolio`,
+    siteHeadline: `Michael Flood`,
+    siteUrl: `https://mike-flood.com`,
+    siteDescription: `Game Development portfolio of Michael Flood`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@lekoarts_de`
   },
   plugins: [
     "gatsby-plugin-theme-ui",
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+
+        name: `Michael Flood`,
+        showThemeAuthor: true,
+        formatString: 'MM/DD/YYYY',
+        location: 'Portland, Oregon',
+        socialMedia: [
+          {
+            title: `Twitter`,
+            href: `https://www.twitter.com/MikeFlewd`
+          },
+          {
+            title: 'linkedIn',
+            href: 'https://www.linkedin.com/in/michaelrflood/'
+          }
+        ]
+
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
