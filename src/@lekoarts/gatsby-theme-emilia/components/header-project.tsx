@@ -91,23 +91,79 @@ const HeaderProject = ({ title, areas, description = ``, date }: HeaderProjectPr
               {title}
             </Heading>
           </animated.div>
-          <animated.div style={infoProps}>
-            <Styled.p sx={{ mb: 0, mt: 4 }}>{date}</Styled.p>
-            <div>
-              {areas.map((area, index) => (
-                <React.Fragment key={area}>
-                  {index > 0 && `, `}
-                  {area}
-                </React.Fragment>
-              ))}
-            </div>
-            {description && (
-              <div sx={{ maxWidth: `900px`, mx: `auto`, mt: 5, p: { textAlign: `left` } }}>
-                <MDXRenderer>{description}</MDXRenderer>
-              </div>
-            )}
-          </animated.div>
+
+
+  <animated.div style={{ maxWidth: '900px', /*border: '4px solid red', padding: '20px', */ overflow: 'hidden', }} sx={{ maxWidth: `900px`, mx: `auto`, mt: 5, p: { textAlign: `left` } }}>
+
+<animated.div style={{ marginRight:'15px', float: 'left'}}>
+  <embed
+    src="https://www.youtube.com/embed/HlNOiWodqFY"
+    //wmode="transparent"
+    type="video/mp4"
+    width="550px" height="310px"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen="true"
+    title="Amplify Reading"
+  />
+</animated.div>
+
+  <animated.div style={{textAlign:'left'}}>
+              <animated.div style={infoProps}>
+                {/* <Styled.p sx={{ mb: 0, mt: 4 }}>{date}</Styled.p> */}
+
+                <ul>
+                  {areas.map((area, index) => (
+                    <React.Fragment key={area}>
+                      <div style={{fontSize:21}}>
+                      {area}
+                      </div>
+                      
+                    </React.Fragment>
+                  ))}
+                   </ul>
+
+                
+              </animated.div>
+            </animated.div>
+
+
+      {/* <h3  style={{ marginLeft: '15px', display: 'block', margin: '2px 0 0 0'}}>Title</h3>
+      <p style={{ marginLeft: '15px', display: 'block', margin: '2px 0 0 0'}}>Some Description</p> */}
+    </animated.div>
+
+
+    
+  <animated.div style={infoProps}>
+  {description && (
+                <div sx={{ maxWidth: `900px`, mx: `auto`, mt: 5, p: { textAlign: `left` } }}>
+                  <MDXRenderer>{description}</MDXRenderer>
+                </div>
+              )}
+ </animated.div>
+
+ 
+<div style={{flex: 2, flexDirection: 'row'}} >
+          {/* <iframe
+          src={"https://www.youtube.com/embed/HlNOiWodqFY"}
+          title={"Title"}
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          frameBorder="0"
+          allowFullScreen
+        /> */}
+
+
+
+       
+
+</div>
+
+
+
+
+
         </div>
+
+
       </Container>
     </Flex>
   )
