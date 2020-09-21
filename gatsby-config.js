@@ -31,7 +31,7 @@ module.exports = {
         name: `Michael Flood`,
         showThemeAuthor: true,
         formatString: 'MM/DD/YYYY',
-        location: 'Portland, Oregon',
+        location: '',
         socialMedia: [
           {
             title: `Twitter`,
@@ -49,6 +49,26 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
+      },
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-images-grid",
+            //resolve: require.resolve(`..`),
+            options: {
+              gridGap: "20px",
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              linkImagesToOriginal: true,
+            },
+          },
+        ],
       },
     },
     `gatsby-plugin-sitemap`,
