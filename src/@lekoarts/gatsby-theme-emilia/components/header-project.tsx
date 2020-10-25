@@ -15,6 +15,7 @@ type HeaderProjectProps = {
   areas: string[]
   description?: string
   date: string
+  videoLink: string
 }
 
 type AvatarStaticQuery = {
@@ -23,7 +24,7 @@ type AvatarStaticQuery = {
   }
 }
 
-const HeaderProject = ({ title, areas, description = ``, date }: HeaderProjectProps) => {
+const HeaderProject = ({ title, areas, description = ``, date, videoLink }: HeaderProjectProps) => {
   const { name } = useEmiliaConfig()
   const avatar = useStaticQuery<AvatarStaticQuery>(graphql`
     query {
@@ -97,7 +98,7 @@ const HeaderProject = ({ title, areas, description = ``, date }: HeaderProjectPr
 
 <animated.div style={{ marginRight:'15px', float: 'left'}}>
   <embed
-    src="https://www.youtube.com/embed/HlNOiWodqFY"
+    src={videoLink}
     //wmode="transparent"
     type="video/mp4"
     width="550px" height="310px"

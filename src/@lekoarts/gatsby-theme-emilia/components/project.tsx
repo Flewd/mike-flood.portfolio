@@ -17,6 +17,7 @@ type ProjectProps = {
       slug: string
       title: string
       areas: string[]
+      videoLink: string
       cover: {
         childImageSharp: {
           resize: {
@@ -67,7 +68,7 @@ const Project = ({ data: { project, images }, pageContext: { prev, next } }: Pro
         pathname={project.slug}
         image={project.cover.childImageSharp.resize.src}
       />
-      <HeaderProject title={project.title} description={project.body} areas={project.areas} date={project.date} />
+      <HeaderProject title={project.title} description={project.body} areas={project.areas} date={project.date} videoLink={project.videoLink} />
       <Container style={{maxWidth:'55em'}} sx={{ mt: [`-6rem`, `-6rem`, `-19rem`] }}>
         {images.nodes.map((image) => (
           <animated.div key={image.name} style={imageFade}>
