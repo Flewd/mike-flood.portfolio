@@ -54,7 +54,6 @@ exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
       title: String!
       slug: String! @slugify
       date: Date! @dateformat
-      videoLink: String!
       areas: [String!]!
       cover: File! @fileByRelativePath
       excerpt(pruneLength: Int = 160): String!
@@ -65,7 +64,6 @@ exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
       title: String!
       slug: String! @slugify
       date: Date! @dateformat
-      videoLink: String!
       areas: [String!]!
       cover: File! @fileByRelativePath
       excerpt(pruneLength: Int = 140): String! @mdxpassthrough(fieldName: "excerpt")
@@ -108,7 +106,6 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
       title: node.frontmatter.title,
       cover: node.frontmatter.cover,
       date: node.frontmatter.date,
-      videoLink: node.frontmatter.videoLink,
       areas: node.frontmatter.areas,
     }
 

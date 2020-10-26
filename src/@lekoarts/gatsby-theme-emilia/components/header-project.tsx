@@ -15,7 +15,6 @@ type HeaderProjectProps = {
   areas: string[]
   description?: string
   date: string
-  videoLink: string
 }
 
 type AvatarStaticQuery = {
@@ -24,7 +23,7 @@ type AvatarStaticQuery = {
   }
 }
 
-const HeaderProject = ({ title, areas, description = ``, date, videoLink }: HeaderProjectProps) => {
+const HeaderProject = ({ title, areas, description = ``, date }: HeaderProjectProps) => {
   const { name } = useEmiliaConfig()
   const avatar = useStaticQuery<AvatarStaticQuery>(graphql`
     query {
@@ -94,43 +93,8 @@ const HeaderProject = ({ title, areas, description = ``, date, videoLink }: Head
           </animated.div>
 
 
-  <animated.div style={{ maxWidth: '900px', /*border: '4px solid red', padding: '20px', */ overflow: 'hidden', }} sx={{ maxWidth: `900px`, mx: `auto`, mt: 5, p: { textAlign: `left` } }}>
-
-<animated.div style={{ marginRight:'15px', float: 'left'}}>
-  <embed
-    src={videoLink}
-    //wmode="transparent"
-    type="video/mp4"
-    width="550px" height="310px"
-    allow="autoplay; encrypted-media; picture-in-picture"
-    allowfullscreen="true"
-    title="Amplify Reading"
-  />
-</animated.div>
-
-  <animated.div style={{textAlign:'left'}}>
-              <animated.div style={infoProps}>
-                {/* <Styled.p sx={{ mb: 0, mt: 4 }}>{date}</Styled.p> */}
-
-                <ul>
-                  {areas.map((area, index) => (
-                    <React.Fragment key={area}>
-                      <div style={{fontSize:21}}>
-                      {area}
-                      </div>
-                      
-                    </React.Fragment>
-                  ))}
-                   </ul>
-
-                
-              </animated.div>
-            </animated.div>
 
 
-      {/* <h3  style={{ marginLeft: '15px', display: 'block', margin: '2px 0 0 0'}}>Title</h3>
-      <p style={{ marginLeft: '15px', display: 'block', margin: '2px 0 0 0'}}>Some Description</p> */}
-    </animated.div>
 
 
     

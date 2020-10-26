@@ -36,6 +36,12 @@ Also be sure to checkout other [Free & Open Source Gatsby Themes](https://themes
 
 ## 🚀 Getting Started
 
+0. **One time setup, install Gatsby CLI**
+
+```
+npm install -g gatsby-cli
+```
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LekoArts/gatsby-starter-portfolio-emilia) [![Edit gatsby-starter-portfolio-emilia](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/LekoArts/gatsby-starter-portfolio-emilia/tree/master/)
 
 1. **Create a Gatsby site.**

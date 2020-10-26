@@ -27,7 +27,6 @@ export const query = graphql`
       date(formatString: $formatString)
       slug
       title
-      videoLink
       areas
       cover {
         childImageSharp {
