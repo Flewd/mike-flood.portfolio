@@ -1,3 +1,9 @@
+Start Local Host Develop: npm start
+Deploy to Github Master branch: npm run deploy
+Clean local dev cache: gatsby clean
+
+
+
 <p align="center">
   <a href="https://emilia.lekoarts.de">
     <img alt="LekoArts" src="https://img.lekoarts.de/gatsby/gatsby-site-illustration.png" />
