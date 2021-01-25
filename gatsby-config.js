@@ -62,12 +62,15 @@ module.exports = {
               gridGap: "20px",
             },
           },
+          `gatsby-remark-relative-images`,
           {
-            resolve: `gatsby-remark-images`,
-            options: {
-              linkImagesToOriginal: true,
-            },
-          },
+            
+              resolve: `gatsby-remark-images`,
+              options: {
+                linkImagesToOriginal: true,
+              },
+            
+          }
         ],
       },
     },

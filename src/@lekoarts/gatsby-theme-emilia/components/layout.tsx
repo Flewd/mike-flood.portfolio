@@ -5,8 +5,9 @@ import SEO from "./seo"
 
 import { MDXProvider } from "@mdx-js/react"
 import VideoHeader from "./video-header"
+import ImageHeader from "./image-header"
 
-const shortcodes = { VideoHeader }
+const shortcodes = { VideoHeader, ImageHeader }
 
 type LayoutProps = { children: React.ReactNode }
 

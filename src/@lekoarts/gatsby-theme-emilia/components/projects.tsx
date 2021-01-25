@@ -104,7 +104,9 @@ const Projects = ({ projects }: Props) => {
               gridColumnGap: 4,
             }}
           >
-            {projects.map((project, index) => {
+            
+            {
+            projects.map((project, index) => {
               const val = data.allProject.nodes[index].parent.fields.colorThief
               const shadow = `${val[0]}, ${val[1]}, ${val[2]}`
 
