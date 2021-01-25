@@ -32,7 +32,7 @@ const ImageHeader = ({ imageUrl, imageTitle, textItems }: ImageHeaderProps) => {
 
 
 <animated.div style={{ marginRight:'15px', float: 'left'}}>
-<img src={window.location.origin  + imageUrl} />
+<img src={process.env.PUBLIC_URL   + imageUrl} />
 </animated.div>
 
 
