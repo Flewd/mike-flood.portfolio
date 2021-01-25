@@ -1,0 +1,80 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/66b32394d72d6541d7619afa7e37fa582365d3ce-d0d32218ddfb29e5f239.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---node-modules-lekoarts-gatsby-theme-emilia-core-src-templates-projects-query-tsx-16953144fcd8937282ba.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---node-modules-lekoarts-gatsby-theme-emilia-core-src-templates-project-query-tsx-2f509d10474221a36b82.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-17576e9f204a1a7a19c9.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-a576ae5ab153fa4a7c27.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-0be657824536aaffc274.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/
+  Link: </webpack-runtime-17576e9f204a1a7a19c9.js>; rel=preload; as=script
+  Link: </framework-a576ae5ab153fa4a7c27.js>; rel=preload; as=script
+  Link: </app-0be657824536aaffc274.js>; rel=preload; as=script
+  Link: </66b32394d72d6541d7619afa7e37fa582365d3ce-d0d32218ddfb29e5f239.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-emilia-core-src-templates-projects-query-tsx-16953144fcd8937282ba.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/starcrossed
+  Link: </webpack-runtime-17576e9f204a1a7a19c9.js>; rel=preload; as=script
+  Link: </framework-a576ae5ab153fa4a7c27.js>; rel=preload; as=script
+  Link: </app-0be657824536aaffc274.js>; rel=preload; as=script
+  Link: </66b32394d72d6541d7619afa7e37fa582365d3ce-d0d32218ddfb29e5f239.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-emilia-core-src-templates-project-query-tsx-2f509d10474221a36b82.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/starcrossed/page-data.json>; rel=preload; as=fetch; crossorigin
+/twodots
+  Link: </webpack-runtime-17576e9f204a1a7a19c9.js>; rel=preload; as=script
+  Link: </framework-a576ae5ab153fa4a7c27.js>; rel=preload; as=script
+  Link: </app-0be657824536aaffc274.js>; rel=preload; as=script
+  Link: </66b32394d72d6541d7619afa7e37fa582365d3ce-d0d32218ddfb29e5f239.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-emilia-core-src-templates-project-query-tsx-2f509d10474221a36b82.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/twodots/page-data.json>; rel=preload; as=fetch; crossorigin
+/AmplifyReading
+  Link: </webpack-runtime-17576e9f204a1a7a19c9.js>; rel=preload; as=script
+  Link: </framework-a576ae5ab153fa4a7c27.js>; rel=preload; as=script
+  Link: </app-0be657824536aaffc274.js>; rel=preload; as=script
+  Link: </66b32394d72d6541d7619afa7e37fa582365d3ce-d0d32218ddfb29e5f239.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-emilia-core-src-templates-project-query-tsx-2f509d10474221a36b82.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/AmplifyReading/page-data.json>; rel=preload; as=fetch; crossorigin
+/LittleMermaidUnderseaTreasures
+  Link: </webpack-runtime-17576e9f204a1a7a19c9.js>; rel=preload; as=script
+  Link: </framework-a576ae5ab153fa4a7c27.js>; rel=preload; as=script
+  Link: </app-0be657824536aaffc274.js>; rel=preload; as=script
+  Link: </66b32394d72d6541d7619afa7e37fa582365d3ce-d0d32218ddfb29e5f239.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-emilia-core-src-templates-project-query-tsx-2f509d10474221a36b82.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/LittleMermaidUnderseaTreasures/page-data.json>; rel=preload; as=fetch; crossorigin
+/wobbles
+  Link: </webpack-runtime-17576e9f204a1a7a19c9.js>; rel=preload; as=script
+  Link: </framework-a576ae5ab153fa4a7c27.js>; rel=preload; as=script
+  Link: </app-0be657824536aaffc274.js>; rel=preload; as=script
+  Link: </66b32394d72d6541d7619afa7e37fa582365d3ce-d0d32218ddfb29e5f239.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-emilia-core-src-templates-project-query-tsx-2f509d10474221a36b82.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/wobbles/page-data.json>; rel=preload; as=fetch; crossorigin
+/offline-plugin-app-shell-fallback/
+  Link: </webpack-runtime-17576e9f204a1a7a19c9.js>; rel=preload; as=script
+  Link: </framework-a576ae5ab153fa4a7c27.js>; rel=preload; as=script
+  Link: </app-0be657824536aaffc274.js>; rel=preload; as=script
+  Link: </component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
