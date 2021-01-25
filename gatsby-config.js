@@ -40,6 +40,10 @@ module.exports = {
           {
             title: 'linkedIn',
             href: 'https://www.linkedin.com/in/michaelrflood/'
+          },
+          {
+            title: 'Resume',
+            href: 'https://docs.google.com/document/d/1Ww7UL7tN89EFf67DagqtO4dERjkgh2N1IaxoCKg4Sj4/edit?usp=sharing'
           }
         ]
 
