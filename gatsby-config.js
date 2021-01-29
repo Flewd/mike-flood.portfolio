@@ -43,7 +43,7 @@ module.exports = {
           },
           {
             title: 'Resume',
-            href: 'https://docs.google.com/document/d/1Ww7UL7tN89EFf67DagqtO4dERjkgh2N1IaxoCKg4Sj4/edit?usp=sharing'
+            href: 'https://drive.google.com/file/d/1Y4lS-cI8iUsy_Cz8Ep4hda-_6qFItyQE/view?usp=sharing'
           }
         ]
 
