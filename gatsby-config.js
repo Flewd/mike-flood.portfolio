@@ -34,6 +34,10 @@ module.exports = {
         location: '',
         socialMedia: [
           {
+            title: 'Resume',
+            href: 'https://drive.google.com/file/d/1Y4lS-cI8iUsy_Cz8Ep4hda-_6qFItyQE/view?usp=sharing'
+          },
+          {
             title: `Twitter`,
             href: `https://www.twitter.com/MikeFlewd`
           },
@@ -42,8 +46,8 @@ module.exports = {
             href: 'https://www.linkedin.com/in/michaelrflood/'
           },
           {
-            title: 'Resume',
-            href: 'https://drive.google.com/file/d/1Y4lS-cI8iUsy_Cz8Ep4hda-_6qFItyQE/view?usp=sharing'
+            title: 'Itch.io',
+            href: 'https://flewd.itch.io/'
           }
         ]
 
