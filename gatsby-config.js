@@ -48,6 +48,10 @@ module.exports = {
           {
             title: 'Itch.io',
             href: 'https://flewd.itch.io/'
+          },
+          {
+            title: 'GitHub',
+            href: 'https://github.com/Flewd'
           }
         ]
 
